@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 3354719803835978225}
   - component: {fileID: 7132001843335641566}
   - component: {fileID: 1749111544540557361}
+  - component: {fileID: 1565644960627066491}
   - component: {fileID: 7349518696739355143}
   m_Layer: 0
   m_Name: 'para 2 '
-  m_TagString: Untagged
+  m_TagString: Para
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +101,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orijinalPrefab: {fileID: 2033746113711741411}
+--- !u!114 &1565644960627066491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033746113711741411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6fea56ccf2dff43af5d526ab9fa0f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  miktar: 10
 --- !u!61 &7349518696739355143
 BoxCollider2D:
   m_ObjectHideFlags: 0
